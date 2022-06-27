@@ -24,14 +24,7 @@ h2{
 
 }
 
-header img{
-	width: 100%;
-	height:auto;
-}
 
-a:hover{
-	color: white;
-}
 /*Imagen de fonod
 
 body{
@@ -78,6 +71,10 @@ body div p{
 				font-size: 1rem;
 				font-family: 'Roboto', sans-serif;
 			}
+
+a:hover {
+	color: white;
+}
 
 
 /*=============== ID ===============*/
@@ -364,4 +361,27 @@ body div p{
 		align-items: center;
 	}
 }
+
+================== ANIMACIONES =================
+
+@keyframes animacionHeader{
+	0%{background-image: url(img/1.jpg);}
+	50%{background-image: url(img/3.jpg);}
+	100%{background-image: url(img/4.jpg);}
+}
+
+header{
+	height: auto;
+	animation-name: animacionHeader;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
 
