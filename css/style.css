@@ -72,11 +72,6 @@ body div p{
 				font-family: 'Roboto', sans-serif;
 			}
 
-a:hover {
-	color: white;
-}
-
-
 /*=============== ID ===============*/
 
 
@@ -362,19 +357,25 @@ a:hover {
 	}
 }
 
-================== ANIMACIONES =================
+/*================== ANIMACIONES =================*/
 
 @keyframes animacionHeader{
-	0%{background-image: url(img/1.jpg);}
-	40%{background-image: url(img/3.jpg);}
-	100%{background-image: url(img/4.jpg);}
+	0%{background-image: url(../img/1.jpg);}
+	40%{background-image: url(../img/3.jpg);}
+	80%{background-image: url(../img/4.jpg);}
+	100%{background-image: url(../img/1.jpg);}
 }
 
-header{
-	height: auto;
+.animacionheader{
+	height: 40vh;
 	animation-name: animacionHeader;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+	animation-delay:0s;
+}
+
+.resaltar:hover{
+	color: white;
 }
 
 
