@@ -360,14 +360,14 @@ body div p{
 /*================== ANIMACIONES =================*/
 
 @keyframes animacionHeader{
-	0%{background-image: url(../img/1.jpg);}
-	40%{background-image: url(../img/3.jpg);}
-	80%{background-image: url(../img/4.jpg);}
-	100%{background-image: url(../img/1.jpg);}
+	0%{background-image: url(../img/atikastore.png);}
+	40%{background-image: url(../img/atikastore1.png);}
+	80%{background-image: url(../img/atikastore2.png);}
+	100%{background-image: url(../img/atikastore.png);}
 }
 
 .animacionheader{
-	height: 40vh;
+	height: 100vh;
 	animation-name: animacionHeader;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
