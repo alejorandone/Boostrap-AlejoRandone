@@ -13,12 +13,11 @@
 	<link rel="stylesheet" type="text/css" href="../css/style1.css">
 </head>
 <body>
-
-	<div>
-		<p class="text-center">3 y 6 cuotas sin interes - 15% de descuento en efectivo</p>
+	<div class="bg-light">
+		<p class="comentarioSuperior">3 y 6 cuotas sin interes - 15% de descuento en efectivo</p>
 	</div>
 
-	<!-- Inicia la nav -->
+	<!-- Empieza Nav -->
 	<nav id="botonera" class="navbar navbar-expand-lg bgNav sticky-top">
 	  <div class="container-fluid">
 	    <a class="navbar-brand" href="../index.html">
@@ -46,70 +45,62 @@
 	        <li class="nav-item">
 	          <a class="nav-link" href="contacto.html">Contacto</a>
 	        </li>
-
 	      </ul>
 	    </div>
 	  </div>
 	</nav>
-	<!-- Termina la nav -->
+	<!-- Termina Nav -->
 
-	<header class="contact text-center">
-		<h1 class="text-center">Contactanos</h1>
-		<p class="text-center text-bold text-s">para nosotros es muy importante saber de vos</p>
 
-		<form action="" class="contacto__formulario">
-			<fieldset>
-				<legend>Datos Personales</legend>
-				<label for="nombre">Nombre</label>
-				<input type="text" placeholder="Alejo Danilo">
-			<br>
-				<label for="apellido">Apellido</label>
-				<input type="text" placeholder="Randone">
-			<br>
-				<label for="sexo">Sexo</label>
-				<select name="sexo" id="sexo">
-					<option value="m">Masculino</option>
-					<option value="f">Femenino</option>
-				</select>
-			</fieldset>
-			<br>
-			<fieldset>
-				<legend>Datos de Contacto</legend>
-				<label for="numero">Telefono</label>
-				<input type="text" placeholder="1133739109">
-			<br>
-				<label for="mail">Correo Electronico</label>
-				<input type="mail" name="correo" id="correo" placeholder="example@gmail.com">
-			</fieldset>
-			<br>
-			<fieldset>
-				<legend>Consulta</legend>
-				<label for="consulta">Consulta</label>
-			<br>
-				<textarea name="consulta" id="consulta" cols="50" rows="30" placeholder="deje su consulta aquí"></textarea>
-			<br>
-				<button type="submit">Enviar</button>
-				<button type="reset">Eliminar</button>
-			</fieldset>
-		</form>
+	<!-- Empieza Header -->
+	<header>
+			<h1>Contactanos</h1>
+
+		<div class="contenedorContacto text-center">
+			<div class="mb-3">
+			  <label for="exampleFormControlInput1" class="form-label">Completa tus Datos</label>
+			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Completo">
+			</div>
+
+			<div class="input-group mb-3">
+			  	<input type="text" class="form-control" placeholder="email" aria-label="Username">
+			  	<span class="input-group-text">@</span>
+			  	<input type="text" class="form-control" placeholder="email.com" aria-label="Server">
+			</div>
+
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>Sexo</option>
+			  <option value="1">Hombre</option>
+			  <option value="2">Mujer</option>
+			</select>
+
+			<div class="form-floating">
+			  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+			  <label for="floatingTextarea2">Consultanos</label>
+			</div>
+		</div>
 	</header>
-	<!-- ends header -->
-	<footer id="footer" class="pie text-center">
-		<section>
-			<h2>Seguinos en redes</h2>
-			<a href="https://www.instagram.com/" target="_blank">
-				<img src="../img/instagram.png" alt="logo de instagram" class="tamaño__img--s">
-			</a>
-			<a href="https://www.facebook.com" target="_blank">
-				<img src="../img/facebook.png" alt="logo de facebook" class="tamaño__img--s">
-			</a>
-		</section>
-		<section>
-			<h2>Veni a visitarnos</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2492914056497!2d-58.57355678498981!3d-34.64840668044791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc76e2b3fe557%3A0x3485147f8cddce6a!2s%C3%A1tika%20store%20-%20Showroom!5e0!3m2!1ses!2sar!4v1653850456556!5m2!1ses!2sar" width="300" height="215" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</section>
+	<!-- Termina Header -->
+
+
+	<!-- Empieza Footer -->
+	<footer class="contenedorFooter">
+		<h2>Seguinos en Redes</h2>
+		<div>
+			<img src="../img/iconos/facebook.svg" alt="" class="imgFooter">
+			<img src="../img/iconos/instagram.svg" alt="" class="imgFooter">
+		</div>
+		<h2>Contactanos</h2>
+		<div>
+			<img src="../img/iconos/mail.svg" alt="" class="imgFooter">
+			<img src="../img/iconos/whatsapp.svg" alt="" class="imgFooter">
+		</div>
+		<h2>Visitanos</h2>
+		<div>
+			<img src="../img/iconos/maps.svg" alt="" class="imgFooter">
+		</div>
 	</footer>
-	<!-- ends footer -->
+	<!-- Termina Footer -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

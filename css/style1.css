@@ -72,8 +72,7 @@ h1{
 
 .contenedorFooter{
 	background-color: rgba(205, 204, 206, .3);
-	display: flex;
-	justify-content: space-evenly;
+	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-top: 300px;
@@ -97,7 +96,17 @@ h1{
 }
 
 
+.contenedorContacto{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
+@media (min-width: 768px){
+	.contenedorFooter{
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
 
 
